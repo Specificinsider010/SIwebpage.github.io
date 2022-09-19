@@ -1,0 +1,76 @@
+h1 {
+    color: whitesmoke;
+    position: absolute;
+    top: 8px;
+    left: 122px;
+    font-family:'Carter One', cursive;
+}
+
+.welcome-text{
+    font-family:'Philosopher',sans-serif;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    transition: .5s;
+}
+
+.welcome-text:hover{
+    color: white;
+}
+
+.welcome-text:hover{
+    text-shadow: 
+    0 0 10px  green,
+    0 0 20px  green,
+    0 0 40px  green;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-image: url(../images/backgroundofwebpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    opacity: 0.8;
+}
+
+.nav-area {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-area li{
+        display: inline-block;
+}
+
+.nav-area li a{
+    color: lemonchiffon;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.nav-area li a:hover{
+        background: black;
+        color: crimson;
+}
+
+
+
+
+
+
